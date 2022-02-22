@@ -1,0 +1,9 @@
+/node_modules
+/src/fonts
+/src/icons
+/src/css/fonts.css
+/src/css/bootstrap-reboot.min.css
+/src/img
+gulpfile.js
+package-lock.json
+
