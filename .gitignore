@@ -3,7 +3,9 @@
 /src/icons
 /src/css/fonts.css
 /src/css/bootstrap-reboot.min.css
+/src/css/reboot.css
 /src/img
+
 gulpfile.js
 package-lock.json
 
