@@ -23,9 +23,17 @@ const slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
-    autoplay: false,
     controls: false,
     nav: false,
+    responsive: {
+        0: {
+            autoplay: true,
+            autoplayTimeout: 2000
+        },
+        1080: {
+            autoplay: false
+        }
+    }
 });
 
 document.querySelector('.prev').addEventListener('click', function() {
