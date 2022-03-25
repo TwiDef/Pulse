@@ -37,9 +37,11 @@
 
     &__content
         margin-top: 60px
-        display: flex
+        display: none
         justify-content: space-between
         flex-wrap: wrap
+        &_active
+            display: flex
     
     &-item
         width: 302px
@@ -142,4 +144,18 @@
                     background-color: $main-color
                     left: -14px
                     top: 8px
+
+        &__back
+            position: absolute
+            bottom: 0
+            left: 50%
+            transform: translateX(calc(-50% - 19px))
+            display: block
+            color: $main-color
+            font-size: 14px
+            text-decoration: underline
+            font-weight: 500
+            text-transform: uppercase
+            &:hover
+                color: $main-color
 
