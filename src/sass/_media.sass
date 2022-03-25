@@ -4,6 +4,16 @@
     .container
         padding: 0 12px
 
+/* ==================== 991px ================= */
+
+@media (max-width: 991px)
+    .catalog
+        &-item
+            width: 334px
+        &__content
+            justify-content: space-around
+            
+
 /* ==================== 767px ================= */
 
 @media (max-width: 767px)
@@ -104,3 +114,20 @@
                 font-size: 16px
             .button_submit
                 font-size: 14px
+    .catalog
+        h2
+            font-size: 26px
+        &__tabs
+            margin-top: 50px
+            display: flex
+            flex-direction: column
+            align-items: center
+        &__tab
+            width: 280px
+            margin-bottom: 8px
+            &:nth-last-child(1)
+                margin-bottom: 0
+        
+
+                
+            
