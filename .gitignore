@@ -5,6 +5,7 @@
 /src/css/bootstrap-reboot.min.css
 /src/css/reboot.css
 /src/img
+src/mailer
 
 gulpfile.js
 package-lock.json
