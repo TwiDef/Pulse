@@ -144,9 +144,6 @@ document.querySelector('.next').addEventListener('click', function() {
 })(jQuery);
 
 
-
-
-
 /* $(document).ready(function() {
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
         $(this)
