@@ -16,6 +16,19 @@
     });
 }); */
 
+// анимирование иконок при наводе мыши
+const advIcons = document.querySelectorAll('.advantage__icon');
+
+advIcons.forEach((event) => {
+    event.addEventListener('mouseover', function() {
+        event.classList.add('animate__animated');
+    });
+    event.addEventListener('mouseout', function() {
+        event.classList.remove('animate__animated');
+    });
+});
+
+
 
 /* Использование tiny-slider */
 
